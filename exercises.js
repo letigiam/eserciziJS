@@ -1,8 +1,6 @@
 
 //esercizio 1
 
-const { count } = require("console");
-
 /* Si sviluppi una funzione che dato un input intero, si verifichi
 questo sia un anno bisestile o meno */
 year = 2019;
@@ -37,14 +35,9 @@ function order(arr){
 
 var arr = [10,2,5,7,1,6,9,3,4,8];
 
-arr.sort(function(a,b){
-    return a-b;});
-    console.log(arr)
 
-arr.reverse(function(a,b){
-    return a-b;
-});console.log(arr)
-
+//esercizio 3
+/* numero Max  */
 
 array = [10,2,5,7,1,6,9,3,4,8];
     //calcolare il numero massimo
